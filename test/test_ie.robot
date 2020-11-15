@@ -8,6 +8,7 @@ ${MESSAGE}        Hello, world!
 *** Test Cases ***
 My Test
     [Documentation]    Example test.
+    [Tags]  Smoke  Search
     Log    ${MESSAGE}
     My Keyword     ${MESSAGE}
 
