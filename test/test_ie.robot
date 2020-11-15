@@ -19,5 +19,5 @@ My Test2
 *** Keywords ***
 My Keyword
     [Arguments]    ${message}
-    ${greet}    Hello, world!
+    ${greet}    Set Variable  Hello, world!
     Should Be Equal    ${greet}  ${message}
